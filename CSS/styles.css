@@ -114,3 +114,17 @@ body {
 .banner-img img {
     width: 100%;
 }
+
+/* Sponsor styles */
+#sponsor {
+    margin-top: 70px;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    width: 1110px;
+    margin: 0 auto;
+}

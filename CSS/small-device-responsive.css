@@ -39,4 +39,10 @@
     .banner-description {
         font-size: 1rem;
     }
+
+    .sponsor-container {
+        width: 400px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }
