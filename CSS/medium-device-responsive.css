@@ -1,0 +1,14 @@
+@media screen and (min-width:576.1px) and (max-width:992px) {
+    #navbar {
+        padding: 35px 20px;
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline;
+    }
+}
