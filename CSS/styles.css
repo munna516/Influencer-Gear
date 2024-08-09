@@ -10,7 +10,6 @@
 body {
     font-family: "Poppins", sans-serif;
     max-width: 1440px;
-    border: 2px solid red;
     margin: 0 auto;
 }
 
@@ -127,4 +126,77 @@ body {
     gap: 65px;
     width: 1110px;
     margin: 0 auto;
+}
+
+/* Card styles */
+#collection {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 15px;
+
+}
+
+.collection-title {
+    color: rgb(58, 58, 58);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-title {
+    color: rgb(24, 25, 31);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rating {
+    color: goldenrod;
+}
+
+.rating-text {
+    color: black;
+    margin-left: 15px;
+}
+
+.card-description {
+    color: rgb(120, 120, 133);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.collection-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.see {
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
 }
